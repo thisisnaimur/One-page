@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}.navbar{
+border-bottom: #00A3E0 3px solid;
+opacity: .8;
+}.bg{
+/* background-color: #D2D4D9; */
+border-radius: 10% 11% 59% 9% / 0% 0% 15% 50% ;
+background-image: url('mac.png');
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+/* display: flex;
+justify-content: center;
+align-items: center;
+text-align: center; */
+}.change:after{
+content: '';
+animation: changetext 10s infinite linear;
+}
+@keyframes changetext {
+0%{content: "Heading One";}
+20%{content: "Heading Two";}
+40%{content: "Heading Three";}
+60%{content: "Heading Four";}
+80%{content: "Heading Five";}
+100%{content: "Heading Six";}
+}.figure{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}.bg-figure{
+border-radius: 39% 29% 41% 43% / 40% 13% 40% 31% ;
+}
