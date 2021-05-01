@@ -36,3 +36,43 @@ text-align: center;
 }.bg-figure{
 border-radius: 39% 29% 41% 43% / 40% 13% 40% 31% ;
 }
+/* This only changes this particular animation duration */
+.animate__animated.animate__backInLeft {
+  --animate-duration: 1s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.1s;
+}
+/* This only changes this particular animation duration */
+.animate__animated.animate__backInLeft.a2 {
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.1s;
+}
+/* This only changes this particular animation duration */
+.animate__animated.animate__backInLeft.a3 {
+  --animate-duration: 3s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.1s;
+}
+/* This only changes this particular animation duration */
+.animate__animated.animate__backInLeft.a4 {
+  --animate-duration: 4s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.1s;
+}
